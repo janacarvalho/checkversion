@@ -10,9 +10,9 @@ from PyQt5.QtCore import *
 
 
 def connect_to_shotgrid():
-    url = 'https://squeeze-staging.shotgunstudio.com/'
-    script_name = 'interview_access'
-    script_key = 'ngjexe)hzbfipsmytRyo4crne'
+    url = 'https://your.domain.com/'
+    script_name = 'script_name'
+    script_key = 'abcdefghijklmnopqrstuvwxyz'
 
     # Connect to Shotgrid
     sg = shotgun_api3.Shotgun(url, script_name, script_key)
